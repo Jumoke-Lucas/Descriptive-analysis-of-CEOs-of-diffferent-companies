@@ -3,10 +3,10 @@ An analysis carried out on 50 CEOs of different companies in January 2022 using 
 
 
 ### ABOUT THE DATASET
-This dataset contains the data of 50 CEOs of different countries from January 2022.
+This dataset (*records_jan22.csv) contains the data of 50 CEOs of different countries from January 2022.
 
 
-**The columns contained in the () dataset includes:**
+**The columns contained in the dataset includes:**
 1. Records_id
 2. Date
 3. Ceo_id
@@ -21,4 +21,27 @@ This dataset contains the data of 50 CEOs of different countries from January 20
 12. Industry
 13. Email
 
-### Analysis using SQL queries (*file: SQL analysis*).
+### Analysis using SQL queries (*file: SQL analysis.sql*).
+
+First, I created a database and a table where i imported the csv file containing the datasets
+```
+Create database CEO;
+
+Create Table records_jan22(
+record_id INTEGER, 
+date DATE,
+ceo_id INTEGER, 
+first_name TEXT, 
+last_name TEXT, 
+date_of_birth DATE, 
+total_revenue REAL, 
+total_expenses REAL, 
+state VARCHAR(14), 
+postal_codes CHAR(5), 
+company_name TEXT, 
+industry TEXT, 
+email TEXT, 
+PRIMARY KEY(record_id));
+```
+
+
