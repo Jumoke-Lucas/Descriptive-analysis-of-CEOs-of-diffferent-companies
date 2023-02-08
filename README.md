@@ -6,7 +6,7 @@ An analysis carried out on 50 CEOs of different companies in January 2022 using 
 This dataset contains the data of 50 CEOs of different countries from January 2022.
 
 
-** The columns contained in the dataset includes:**
+**The columns contained in the dataset includes:**
 1. Records_id
 2. Date
 3. Ceo_id
