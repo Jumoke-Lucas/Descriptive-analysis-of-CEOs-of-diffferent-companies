@@ -1,3 +1,22 @@
+Create DATABASE Ceo;
+
+Create Table records_jan22(
+record_id INTEGER, 
+date DATE, ceo_id INTEGER, 
+first_name TEXT, 
+last_name TEXT, 
+date_of_birth DATE, 
+total_revenue REAL, 
+total_expenses REAL, 
+state VARCHAR(14), 
+postal_codes CHAR(5), 
+company_name TEXT, 
+industry TEXT, 
+email TEXT, 
+PRIMARY KEY(record_id));
+
+/*import csv file containing the dataset*/
+
 /*Task 1: Have a view of all the columns in the table */
 
 SELECT column_name, data_type
