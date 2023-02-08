@@ -20,3 +20,5 @@ This dataset contains the data of 50 CEOs of different countries from January 20
 11. Company_name
 12. Industry
 13. Email
+
+### Analysis using SQL queries (file: SQL analysis).
