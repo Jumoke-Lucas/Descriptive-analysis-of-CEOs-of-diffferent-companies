@@ -47,6 +47,7 @@ A record with record_id 430 was entered wrongly and i had to correct it
 
 ```
 delete from records_jan22 where record_id = 430;
+
 insert into records_jan22
 values (430,'2020-10-31',1012,'David','Wells','1997-09-19',495.71,202.0,'Florida','13888','Adams-Rice','Financial','davids.wells@Adams.io');
 ```
