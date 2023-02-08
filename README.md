@@ -3,7 +3,7 @@ An analysis carried out on 50 CEOs of different companies for 3 years in January
 
 
 ### ABOUT THE DATASET
-This dataset (*records_jan22.csv) contains the data of 50 CEOs of different countries from January 2022.
+This dataset (*records_jan22.csv*) contains the data of 50 CEOs of different countries from January 2022.
 
 
 **The columns contained in the dataset includes:**
