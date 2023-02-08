@@ -83,7 +83,7 @@ group by state
 order by avg_profit desc;
 ```
 
-The other queries I wrote can be found [here](https://github.com/Jumoke-Lucas/Exploratory-analysis-of-international-brewery-brands-/blob/main/sql%20analysis.sql)
+The other queries I wrote to further analyze the dataset can be found [here](https://github.com/Jumoke-Lucas/Descriptive-analysis-of-CEOs-of-diffferent-companies/blob/main/Sql%20analysis.sql)
 
 
 
